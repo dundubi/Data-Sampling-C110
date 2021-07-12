@@ -19,6 +19,7 @@ def random_set_of_mean(counter) :
 
 def show_fig(mean_list) :
     df = mean_list
+    fig = ff.create_displot([df], [], [show_hist = False])
 
 def setup():
     mean_list = []
